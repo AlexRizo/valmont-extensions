@@ -1,0 +1,102 @@
+---
+
+---
+
+<!-- CTA Section -->
+<section
+  id="contacto"
+  class="py-24 bg-cover bg-fixed bg-center text-center text-white relative"
+  style="background-image: linear-gradient(rgba(212, 175, 55, 0.9), rgba(212, 175, 55, 0.9)), url('https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop');"
+>
+  <div class="container mx-auto px-5 relative z-10">
+    <h2 class="font-serif text-4xl md:text-5xl mb-5">
+      Agenda tu cambio de look
+    </h2>
+    <p class="text-lg mb-8">
+      Los espacios se llenan rápido. Asegura tu lugar hoy mismo.
+    </p>
+    <a
+      href="https://wa.me/5211234567890"
+      target="_blank"
+      class="inline-block py-3 px-8 text-sm font-semibold tracking-[2px] uppercase bg-[#0a0a0a] text-white border border-transparent hover:bg-white hover:text-[#0a0a0a] transition-all duration-300"
+    >
+      Agendar Cita Ahora
+    </a>
+  </div>
+</section>
+
+<!-- Footer Main -->
+<footer class="bg-[#0a0a0a] text-white py-16">
+  <div class="container mx-auto px-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+      <!-- Col 1 -->
+      <div>
+        <h4 class="font-serif text-xl text-[#D4AF37] mb-6">
+          ValMont Extensions
+        </h4>
+        <p class="text-gray-400 text-sm leading-relaxed">
+          Transformamos tu cabello y tus manos con técnicas premium y acabados
+          naturales.
+        </p>
+      </div>
+      <!-- Col 2 -->
+      <div>
+        <h4 class="font-serif text-xl text-[#D4AF37] mb-6">Contacto</h4>
+        <p class="text-gray-400 text-sm mb-2">
+          Av. Principal 123, Colonia Centro
+        </p>
+        <p class="text-gray-400 text-sm mb-2">+52 123 456 7890</p>
+        <p class="text-gray-400 text-sm">citas@valmontextensions.com</p>
+      </div>
+      <!-- Col 3 -->
+      <div>
+        <h4 class="font-serif text-xl text-[#D4AF37] mb-6">Horarios</h4>
+        <p class="text-gray-400 text-sm mb-2">Lun - Vie: 10:00 am - 8:00 pm</p>
+        <p class="text-gray-400 text-sm mb-2">Sáb: 9:00 am - 4:00 pm</p>
+        <p class="text-gray-400 text-sm">Dom: Cerrado</p>
+      </div>
+      <!-- Col 4 -->
+      <div>
+        <h4 class="font-serif text-xl text-[#D4AF37] mb-6">Síguenos</h4>
+        <div class="flex gap-4">
+          <a
+            href="#"
+            class="text-white hover:text-[#D4AF37] text-xl transition-colors"
+            ><i class="fab fa-instagram"></i></a
+          >
+          <a
+            href="#"
+            class="text-white hover:text-[#D4AF37] text-xl transition-colors"
+            ><i class="fab fa-facebook-f"></i></a
+          >
+          <a
+            href="#"
+            class="text-white hover:text-[#D4AF37] text-xl transition-colors"
+            ><i class="fab fa-tiktok"></i></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="border-t border-[#333] pt-6 text-center text-xs text-gray-500">
+      &copy; <span id="cpDate"></span> ValMont Extensions. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<!-- Botón Flotante WhatsApp -->
+<a
+  href="https://wa.me/5211234567890"
+  target="_blank"
+  class="fixed bottom-8 right-8 bg-[#25d366] text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg z-50 hover:scale-110 transition-transform duration-300"
+>
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+  const cpDate = new Date().getFullYear();
+  const cpDateObj = document.getElementById("cpDate") as HTMLSpanElement;
+
+  cpDateObj.textContent = cpDate.toString();
+</script>
