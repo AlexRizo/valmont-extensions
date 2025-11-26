@@ -8,5 +8,4 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: "https://AlexRizo.github.io",
-  base: "/valmont-extensions",
 });
